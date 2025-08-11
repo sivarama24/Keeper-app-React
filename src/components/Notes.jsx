@@ -1,8 +1,9 @@
 function Notes( { title, content } ) {
   return (
-    <div className="notes">
-      <h2>{title}</h2>
+    <div className="note">
+      <h1>{title}</h1>
       <p>{content}</p>
+      <button>DELETE</button>
     </div>
   );
 }
